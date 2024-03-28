@@ -3,14 +3,14 @@ using namespace std;
 
 int arr[20];
 int cmp_count = 0;
-int mov_count = 0:
+int mov_count = 0;
 int n;
 
 void input () {
     while (true)
     {
         cout << "Masukan panjang element array: ";
-        cin >> n 
+        cin >> n;
 
         if (n <= 20)
             break;
@@ -40,7 +40,7 @@ void swap (int x, int y)
 void q_short ( int low, int high)
 {
     int temp;
-    int pivot, i, j:
+    int pivot, i, j;
     if (low > high) { //step 1
         return;
     }
