@@ -51,7 +51,7 @@ void q_short ( int low, int high)
 
 
     {
-        while ((arr[i] <= pivot) && (i <=high)) 
+        while ((arr[i] <= pivot) && (i <=high)) //step 5
         {
             
         }
